@@ -44,11 +44,5 @@ export const styles = StyleSheet.create({
     fontSize: 15,
     textAlign: 'left',
     fontWeight: 'bold'
-  },
-  imageLogo: {
-    marginTop: 15,
-    marginBottom: 15,
-    width: '80%',
-    height: '8%'
   }
 });

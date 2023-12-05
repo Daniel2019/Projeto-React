@@ -28,12 +28,6 @@ export const styles = StyleSheet.create({
     fontFamily: theme.fonts.title500,
     lineHeight: 25
   },
-  imageLogo: {
-    marginTop: 15,
-    marginBottom: 15,
-    width: '80%',
-    height: '8%'
-  },
   email: {
     marginTop: 15,
     marginBottom: 15,

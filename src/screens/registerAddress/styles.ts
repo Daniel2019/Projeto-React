@@ -7,11 +7,10 @@ export const styles = StyleSheet.create({
         backgroundColor: theme.colors.white,
         flex: 1,
         justifyContent: 'center',
-        alignItems: 'center',    
+        paddingHorizontal: 30    
     },
     title: {
-        color: theme.colors.heading,
-        textAlign: 'center',
+        color: theme.colors.text,
         fontWeight:'bold',
         fontSize: 40,
         marginBottom: 16,   
@@ -19,17 +18,17 @@ export const styles = StyleSheet.create({
         lineHeight: 40 
     },
     label: {
-        color: theme.colors.primary,
-        fontFamily: theme.fonts.text500,
-        fontSize: 15,
+        color: theme.colors.label,
+        fontFamily: theme.fonts.title700,
+        fontSize: 18,
         textAlign: 'left',
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        lineHeight: 40
     },
     input: {
         color: theme.colors.primary,
         fontFamily: theme.fonts.text400,
-        fontSize: 25,
-        textAlign: 'center',
+        fontSize: 18,
         fontWeight:'bold',
         borderBottomColor: theme.colors.primary,
         borderBottomWidth: 2,

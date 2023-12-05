@@ -1,4 +1,4 @@
-import { View, Text, Image, Alert, ActivityIndicator } from "react-native";
+import { View, Text } from "react-native";
 import { styles } from "./styles";
 import { theme } from "../../global/styles/theme";
 
@@ -8,7 +8,7 @@ import { Background } from "../../components/Background";
 import { useNavigation } from "@react-navigation/native";
 import { TextInput } from "react-native-gesture-handler";
 
-import logoSmall from "../../../assets/app-name-small.png";
+import { Header } from "../../components/header";
 
 export function ForgotPassword() {
 
@@ -21,7 +21,9 @@ export function ForgotPassword() {
   return (
     <Background>
       <View style={styles.container}>
-        <Image source={logoSmall} style={styles.imageLogo} resizeMode="stretch" />
+        
+        <Header />
+
         <Text style={styles.title}>Esqueceu a senha?</Text>
         <Text style={styles.subtitle}>Digite seu e-mail abaixo para receber as instruções de redefinição de senha.</Text>
         <Text style={styles.label}>E-mail</Text>
