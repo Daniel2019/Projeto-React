@@ -23,8 +23,8 @@ export function RegisterAccount() {
 
                 <Header />
 
-                <Text>Insira os dados da sua conta</Text>
-                <Text style={styles.label}>E-mail {"\n"}</Text>
+                <Text style={styles.title}>Insira os dados da sua conta</Text>
+                <Text style={styles.label}>E-mail * {"\n"}</Text>
                 <TextInput
                     style={styles.input}
                     placeholder="Insira seu e-mail"
@@ -33,7 +33,7 @@ export function RegisterAccount() {
                     maxLength={20}
                 ></TextInput>
 
-                <Text style={styles.label}>Nome de usuario {"\n"}</Text>
+                <Text style={styles.label}>Nome de usuario * {"\n"}</Text>
                 <TextInput
                     style={styles.input}
                     placeholder="Insira seu nome de usuario"
@@ -42,7 +42,7 @@ export function RegisterAccount() {
                     maxLength={20}
                 ></TextInput>
 
-                <Text style={styles.label}>Senha {"\n"}</Text>
+                <Text style={styles.label}>Senha * {"\n"}</Text>
                 <TextInput
                     style={styles.input}
                     placeholder="Insira sua senha"
@@ -51,7 +51,7 @@ export function RegisterAccount() {
                     maxLength={20}
                 ></TextInput>
 
-                <Text style={styles.label}>Confirme sua senha {"\n"}</Text>
+                <Text style={styles.label}>Confirme sua senha * {"\n"}</Text>
                 <TextInput
                     style={styles.input}
                     placeholder="Insira sua senha"

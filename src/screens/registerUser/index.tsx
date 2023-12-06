@@ -23,8 +23,8 @@ export function RegisterUser() {
 
                 <Header />
 
-                <Text>Insira os dados pessoais</Text>
-                <Text style={styles.label}>Nome {"\n"}</Text>
+                <Text style={styles.title}>Insira os dados pessoais</Text>
+                <Text style={styles.label}>Nome * {"\n"}</Text>
                 <TextInput
                     style={styles.input}
                     placeholder="Insira seu e-mail"
@@ -33,7 +33,7 @@ export function RegisterUser() {
                     maxLength={20}
                 ></TextInput>
 
-                <Text style={styles.label}>Sobrenome {"\n"}</Text>
+                <Text style={styles.label}>Sobrenome * {"\n"}</Text>
                 <TextInput
                     style={styles.input}
                     placeholder="Insira seu sobrenome"
@@ -42,7 +42,7 @@ export function RegisterUser() {
                     maxLength={20}
                 ></TextInput>
 
-                <Text style={styles.label}>Celular {"\n"}</Text>
+                <Text style={styles.label}>Celular * {"\n"}</Text>
                 <TextInput
                     style={styles.input}
                     placeholder="Insira seu celular"
@@ -51,7 +51,7 @@ export function RegisterUser() {
                     maxLength={20}
                 ></TextInput>
 
-                <Text style={styles.label}>Telefone {"\n"}</Text>
+                <Text style={styles.label}>Telefone * {"\n"}</Text>
                 <TextInput
                     style={styles.input}
                     placeholder="Insira seu telefone"

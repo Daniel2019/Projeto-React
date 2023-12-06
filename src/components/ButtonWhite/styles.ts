@@ -14,7 +14,7 @@ export const styles = StyleSheet.create({
     flex: 1,
     color: theme.colors.secondary100,
     fontFamily: theme.fonts.text500,
-    fontSize: 20,
+    fontSize: 18,
     fontWeight: 'bold',
     textAlign: 'center',
   }

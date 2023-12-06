@@ -5,8 +5,6 @@ import { theme } from '../../global/styles/theme';
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
     backgroundColor: theme.colors.white,
     paddingHorizontal: 25    
   },
@@ -14,24 +12,23 @@ export const styles = StyleSheet.create({
     color: theme.colors.secondary100,
     textAlign: 'center',
     fontWeight:'bold',
-    fontSize: 35,
+    fontSize: 30,
     marginBottom: 16,   
     fontFamily: theme.fonts.title700,
     lineHeight: 40 
   },
   subtitle: {
-    color: theme.colors.heading,
-    fontSize: 20
-    ,
+    color: theme.colors.highlight,
+    fontSize: 18,
     textAlign: 'center',
     marginBottom: 64,
     fontFamily: theme.fonts.title500,
     lineHeight: 25
   },
   email: {
-    marginTop: 15,
+    marginTop: 50,
     marginBottom: 15,
-    width: '80%',
-    height: '8%'
+    width: 320,
+    height: 220
   }
 });

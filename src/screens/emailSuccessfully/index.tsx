@@ -25,6 +25,7 @@ export function EmailSuccessfully() {
         <Header />
 
         <Image source={email} style={styles.email} resizeMode="stretch" />
+        
         <Text style={styles.title}>Confira seu e-mail</Text>
         <Text style={styles.subtitle}>Enviamos as instruções em seu e-mail para restaurar a sua senha</Text>
         <Button title="Entrar" onPress={handleNavigate}></Button>

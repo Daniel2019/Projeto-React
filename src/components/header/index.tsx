@@ -17,7 +17,7 @@ export function Header() {
     };
 
     return (
-        <View>
+        <View style={styles.container}>
             <RectButton onPress={handleNavigateBack}><Image source={backArrow} style={styles.backArrow} /></RectButton>
             <Image source={logoSmall} style={styles.imageLogo} />
         </View>

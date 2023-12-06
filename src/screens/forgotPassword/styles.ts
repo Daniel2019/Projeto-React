@@ -16,10 +16,11 @@ export const styles = StyleSheet.create({
   title: {
     color: theme.colors.text,
     fontWeight:'bold',
-    fontSize: 32,
+    fontSize: 30,
     marginBottom: 16,   
     fontFamily: theme.fonts.title700,
-    lineHeight: 40 
+    lineHeight: 40,
+    marginTop: 25
   },
   subtitle: {
     color: theme.colors.highlight,

@@ -6,13 +6,12 @@ export const styles = StyleSheet.create({
     container: {
         backgroundColor: theme.colors.white,
         flex: 1,
-        justifyContent: 'center',
         paddingHorizontal: 30    
     },
     title: {
         color: theme.colors.text,
         fontWeight:'bold',
-        fontSize: 40,
+        fontSize: 30,
         marginBottom: 16,   
         fontFamily: theme.fonts.title700,
         lineHeight: 40 
@@ -32,7 +31,7 @@ export const styles = StyleSheet.create({
         fontWeight:'bold',
         borderBottomColor: theme.colors.primary,
         borderBottomWidth: 2,
-        marginBottom: 10,
+        marginBottom: 15,
         marginTop: 10
     }
 });
